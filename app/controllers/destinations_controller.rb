@@ -4,8 +4,8 @@ class DestinationsController < ApplicationController
   # GET /destinations
   def index
     @destinations = Destination.all
-
-    render json: @destinations
+  
+    render json: @destinations, include: [:courses]
   end
 
   # GET /destinations/1

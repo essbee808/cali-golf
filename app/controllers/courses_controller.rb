@@ -35,7 +35,7 @@ class CoursesController < ApplicationController
 
   # DELETE /courses/1
   def destroy
-    @course.destroy
+    @course.destroy!
   end
 
   private

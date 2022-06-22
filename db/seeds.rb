@@ -5,3 +5,19 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Destination.create(name: "South Bay Cities")
+
+Course.create(
+    name: "Chester Washington Golf Course",
+    address: "1818 CHarlie Sifford Drive Los Angeles, CA 90047",
+    description: "Provides a fun experience for all levels!",
+    website: "https://www.chesterwashington.com/",
+    destination_id: 1)
+
+Course.create(
+    name: "Westchester Golf Course",
+    address: "6900 W. Manchester Avenue Los Angeles, CA 90045",
+    description: "Conveniently located just north of LAX, near popular Westside beaches and communities, this 18-hole, 4,364 yard public golf course is a fun and affordable challenge for golfers of all abilities.",
+    website: "https://www.westchestergc.com/",
+    destination_id: 1)
