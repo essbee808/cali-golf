@@ -5,7 +5,7 @@ class DestinationsController < ApplicationController
   def index
     @destinations = Destination.all
   
-    render json: @destinations, include: [:courses]
+    render json: @destinations
   end
 
   # GET /destinations/1
