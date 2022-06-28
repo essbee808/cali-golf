@@ -10,7 +10,7 @@ class DestinationsController < ApplicationController
 
   # GET /destinations/1
   def show
-    render json: @destination
+    render json: @destination, include: [:courses]
   end
 
   # POST /destinations
@@ -35,7 +35,7 @@ class DestinationsController < ApplicationController
 
   # DELETE /destinations/1
   def destroy
-    @destination.destroy
+    @destination.destroy!
   end
 
   private
