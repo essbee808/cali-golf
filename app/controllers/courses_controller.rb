@@ -3,9 +3,14 @@ class CoursesController < ApplicationController
 
   # GET /courses
   def index
-    @courses = Course.all
-
-    render json: @courses
+    if params[:destination_id]
+      set_destination
+      @courses = @destination.courses
+      render json: @courses
+    else 
+      @courses = Course.all
+      render json: @courses
+    end
   end
 
   # GET /courses/1
@@ -42,6 +47,10 @@ class CoursesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_course
       @course = Course.find(params[:id])
+    end
+
+    def set_destination
+      @destination = Destination.find_by_id(params[:destination_id])
     end
 
     # Only allow a list of trusted parameters through.
