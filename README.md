@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##CaliGolf
+CaliGolf is a single page web application (SPA) was created using Rails as an API on the backend and JavaScript to handle the client-side. This app was designed for golf enthusiasts/hobbyists, looking to explore California. 
 
-Things you may want to cover:
+Client-side can be found here:
 
-* Ruby version
+## Installation
+* Clone this repo
+* Run bundle
+* Run rails s
+* View Rails API: Open your browser to localhost:3000 and use RESTful routes to view destinations index and nested golf courses
 
-* System dependencies
+## Contributing
+But reports and pull requests are welcome on Github at https://github.com/essbee808/cali-golf-api
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+The project is available as open source under the terms of the MIT License.
