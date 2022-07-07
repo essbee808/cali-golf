@@ -2,7 +2,7 @@
 
 CaliGolf is a single page web application (SPA) was created using Rails as an API on the backend and JavaScript to handle the client-side. This app was designed for golf enthusiasts/hobbyists, looking to explore California. 
 
-Client-side can be found here:
+Client-side can be found here: https://github.com/essbee808/cali-golf-frontend
 
 ## Installation
 * Clone this repo
