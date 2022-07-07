@@ -1,4 +1,4 @@
-# Welcome to CaliGolf
+# Welcome to CaliGolf API
 
 CaliGolf is a single page web application (SPA) was created using Rails as an API on the backend and JavaScript to handle the client-side. This app was designed for golf enthusiasts/hobbyists, looking to explore California. 
 
